@@ -1,0 +1,74 @@
+*{
+    list-style: none;
+}
+h1{
+    text-align: center;
+    margin: 5px;
+}
+.skill{
+    width: 500px;
+    margin: 60px auto;
+    padding: 20px;
+    color: blue;
+    background: rgb(255, 159, 217);
+}
+.text{
+    display: flex;
+    
+}
+.skill li{
+    margin: 20px 0;
+    padding: 10px;
+}
+.bar{
+    background-color: blue;
+    display: block;
+    height: 20px;
+    border: 1px solid red;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.bar:hover{
+    background-color: blue;
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background-color: rgb(31, 239, 187);
+}
+.html{
+    width: 99%;
+    animation: html 3s;
+}
+.css{
+    width: 95%;
+    animation: css 3s;
+}
+.javascript{
+    width: 80%;
+    animation: javascript 3s;
+}
+@keyframes html{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:99%;
+    }
+}
+@keyframes css{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:95%;
+    }
+}
+@keyframes javascript{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:80%;
+    }
+}
